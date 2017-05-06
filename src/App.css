@@ -1,0 +1,73 @@
+
+/*add your styleing here*/
+blockquote
+{
+  text-align: left;
+}
+
+body
+{
+  background-color: #0000ff;
+}
+
+article
+{
+  float: left;
+  font-family:serif;
+  background-color: #565656;
+  color: #C09F80;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 24px;
+  border: 2px solid;
+  border-color: #76323F;
+}
+/* Table format */
+table
+{
+  /*font-family: ;*/
+  border-collapse: collapse;
+  /*width: 100%;*/
+  text-align: center;
+  /*margin: 20px 20px 20px 20px;*/
+}
+td, th
+{
+  color: #FFFFFF;
+  background-color: #0000ff;
+  border: 3px solid #FFFFFF;
+  text-align: center;
+  padding: 8px;
+
+}
+div
+{
+  text-align: center;
+}
+
+h1
+{
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* Different color everyother row */
+tr:nth-child(even)
+{
+  background-color: #1111FF;
+}
+
+div.img
+{
+  border: 2px solid;
+  border-color: #76323F;
+  float: left;
+  font-family: inherit;
+
+
+}
+/* For spacing */
+.clearfix
+{
+  clear:both;
+}
